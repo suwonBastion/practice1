@@ -34,26 +34,38 @@
           <div class="choice">
             <img src="images/사랑에빠진딸기.png">
             <h1>사빠딸</h1>
+            <button class="pur" id="a1">구매</button>
+            <button class="del">빼기</button>
           </div>
           <div class="choice">
             <img src="images/사랑에빠진딸기.png">
             <h1>사빠딸</h1>
+            <button class="pur" id="a2">구매</button>
+            <button class="del">빼기</button>
           </div>
           <div class="choice">
             <img src="images/사랑에빠진딸기.png">
             <h1>사빠딸</h1>
+            <button class="pur" id="a3">구매</button>
+            <button class="del">빼기</button>
           </div>
           <div class="choice">
             <img src="images/사랑에빠진딸기.png">
             <h1>사빠딸</h1>
+            <button class="pur" id="a4">구매</button>
+            <button class="del">빼기</button>
           </div>
           <div class="choice">
             <img src="images/사랑에빠진딸기.png">
             <h1>사빠딸</h1>
+            <button class="pur" id="a5">구매</button>
+            <button class="del">빼기</button>
           </div>
           <div class="choice">
             <img src="images/사랑에빠진딸기.png">
             <h1>사빠딸</h1>
+            <button class="pur" id="a6">구매</button>
+            <button class="del">빼기</button>
           </div>
         </div>
         
@@ -61,26 +73,38 @@
            <div class="choice">
             <img src="images/아몬드봉봉.png">
             <h1>아봉봉</h1>
+            <button class="pur" id="a7">구매</button>
+            <button class="del">빼기</button>
           </div>
           <div class="choice">
             <img src="images/아몬드봉봉.png">
             <h1>아봉봉</h1>
+            <button class="pur" id="a8">구매</button>
+            <button class="del">빼기</button>
           </div>
           <div class="choice">
             <img src="images/아몬드봉봉.png">
             <h1>아봉봉</h1>
+            <button class="pur" id="a9">구매</button>
+            <button class="del">빼기</button>
           </div>
           <div class="choice">
             <img src="images/아몬드봉봉.png">
             <h1>아봉봉</h1>
+            <button class="pur" id="a10">구매</button>
+            <button class="del">빼기</button>
           </div>
           <div class="choice">
             <img src="images/아몬드봉봉.png">
             <h1>아봉봉</h1>
+            <button class="pur" id="a11">구매</button>
+            <button class="del">빼기</button>
           </div>
           <div class="choice">
             <img src="images/아몬드봉봉.png">
             <h1>아봉봉</h1>
+            <button class="pur" id="a12">구매</button>
+            <button class="del">빼기</button>
           </div>
         </div>
       
@@ -88,26 +112,38 @@
           <div class="choice">
             <img src="images/카푸치노블라스트.png">
             <h1>카블</h1>
+            <button class="pur" id="a13">구매</button>
+            <button class="del">빼기</button>
           </div>
           <div class="choice">
             <img src="images/카푸치노블라스트.png">
             <h1>카블</h1>
+            <button class="pur" id="a14">구매</button>
+            <button class="del">빼기</button>
           </div>
           <div class="choice">
             <img src="images/카푸치노블라스트.png">
             <h1>카블</h1>
+            <button class="pur" id="a15">구매</button>
+            <button class="del">빼기</button>
           </div>
           <div class="choice">
             <img src="images/카푸치노블라스트.png">
             <h1>카블</h1>
+            <button class="pur" id="a16">구매</button>
+            <button class="del">빼기</button>
           </div>
           <div class="choice">
             <img src="images/카푸치노블라스트.png">
             <h1>카블</h1>
+            <button class="pur" id="a17">구매</button>
+            <button class="del">빼기</button>
           </div>
           <div class="choice">
             <img src="images/카푸치노블라스트.png">
             <h1>카블</h1>
+            <button class="pur" id="a18">구매</button>
+            <button class="del">빼기</button>
           </div>
         </div>
       </section>
@@ -116,17 +152,31 @@
         <div>
           <h1>장 바 구 니</h1>
         </div>
-        <div >
-          <h1>CSS 감자칩</h1>
-          <h1>Javascript 음료</h1>
-          <h1>포카칩</h1>
-          <h1>네네치킨</h1>
-          <h1>세마리치킨</h1>
+        <div id="inside">
+          <p class="a1"></p>
+          <p class="a2"></p>
+          <p class="a3"></p>
+          <p class="a4"></p>
+          <p class="a5"></p>
+          <p class="a6"></p>
+          <p class="a7"></p>
+          <p class="a8"></p>
+          <p class="a9"></p>
+          <p class="a10"></p>
+          <p class="a11"></p>
+          <p class="a12"></p>
+          <p class="a13"></p>
+          <p class="a14"></p>
+          <p class="a15"></p>
+          <p class="a16"></p>
+          <p class="a17"></p>
+          <p class="a18"></p>          
         </div>
         <div>
-          <p id="ttt"><span>합계:10만언</span></p>
+          <p id="ttt"><span id="total"></span><span>만언</span></p>
         </div>
-        <button>주문하기</button>
+        <button id="order">주문</button>
+        <button onclick="reset();">리셋</button>
       </aside>      
     </main>    
     <!-- 푸터 -->
@@ -134,5 +184,10 @@
       copyright
     </footer>
 </div>
+<script src="js/script.js">
+
+  
+
+</script>
 </body>
 </html>

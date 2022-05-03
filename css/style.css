@@ -87,17 +87,22 @@ aside{
   float: right;
   background-color: lightsalmon;
 }
-h1{
+aside p{
   text-align: center;
 }
 #ttt{text-align: center;}
-#ttt span{  
-  font-size: 30px;
+.pppp{    
+  color: aliceblue;
+  font-size: smaller;
 }
-button{
+#order{
   position: relative;
   left: 45%;
-  top: 20px;
+  top: 0px;
+}
+#inside{
+  width: 100%; height: 200px;
+  background-color: beige;
 }
 
 /* 푸터 */
@@ -200,13 +205,11 @@ footer{
     text-align: center;
   }
   #ttt{text-align: center;}
-  #ttt span{  
-    font-size: 30px;
-  }
-  button{
+  
+  #order{
     position: relative;
     left: 45%;
-    top: 20px;
+    top: 0px;
   }
   
   /* 푸터 */
