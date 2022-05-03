@@ -1,0 +1,216 @@
+@media(max-width:1280px){
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+#container{
+  width: 1280px;
+  margin: 0 auto;
+}
+/* 헤더 */
+header{
+  width: 1280px; height: 100px;
+  background-color: aquamarine;
+}
+/* 로고 */
+#logo{
+  width: 300px; height: 90px;
+  position: relative;
+  float: left;
+  top: 5px;
+  left: 5px;
+  background-color: azure;
+}
+/* 네비 */
+nav{
+  width: 500px; height: 90px;
+  position: relative;
+  float: right;
+  right: 5px;
+  top: 5px;
+  background-color: beige;
+}
+nav div{
+  position: absolute;
+  width: 150px; height: 30px;
+  top: 50%;
+  left: 50%;
+  margin: -15px 0 0 -75px;
+}
+/* 메인 */
+main{
+  width: 1280px; height: 300px;
+  background-color: lightpink;
+}
+/* 탭메뉴 */
+input{display: none;}
+label{
+  display: inline-block;
+  padding: 0 66px 0 67px;
+  font-size: 30px;  
+}
+label:hover{
+  color: red;
+}
+input:checked+label{
+  background-color: blanchedalmond;
+}
+#tab{    
+  background-color: lightblue;
+  float: left;
+  width: 50%; height: 300px;
+}
+#menu1,#menu2,#menu3{
+  border-top: 1px solid gray;
+  width: 100%;height: auto;
+  background-color: blue;  
+}
+.choice img{
+  float: left;
+  width: 100px; height: 100px;
+}
+.choice{
+  float: left;
+  width: 33.3%; height: 130px;
+  background-color: blanchedalmond;
+}
+#menu1,#menu2,#menu3{
+  display: none;
+}
+#tab1:checked ~ #menu1,
+#tab2:checked ~ #menu2,
+#tab3:checked ~ #menu3{
+  display: block;
+}
+/* 어사이드 */
+aside{
+  width: 50%; height: 300px;
+  float: right;
+  background-color: lightsalmon;
+}
+h1{
+  text-align: center;
+}
+#ttt{text-align: center;}
+#ttt span{  
+  font-size: 30px;
+}
+button{
+  position: relative;
+  left: 45%;
+  top: 20px;
+}
+
+/* 푸터 */
+footer{
+  width: 1280px; height: 100px;
+  background-color: lightgrey;
+}
+}
+@media (max-width:900px){
+  *{margin: 0; padding: 0;}
+  ul{list-style: none;}
+  #container{
+    width: 800px;
+    margin: 0 auto;
+  }
+  /* 헤더 */
+  header{
+    width: 800px; height: 100px;
+    background-color: aquamarine;
+  }
+  /* 로고 */
+  #logo{
+    width: 200px; height: 90px;
+    position: relative;
+    float: left;
+    top: 5px;
+    left: 5px;
+    background-color: azure;
+  }
+  /* 네비 */
+  nav{
+    width: 300px; height: 90px;
+    position: relative;
+    float: right;
+    right: 5px;
+    top: 5px;
+    background-color: beige;
+  }
+  nav div{
+    position: absolute;
+    width: 150px; height: 30px;
+    top: 50%;
+    left: 50%;
+    margin: -15px 0 0 -75px;
+  }
+  /* 메인 */
+  main{
+    width: 800px; height: 300px;
+    background-color: lightpink;
+  }
+  /* 탭메뉴 */
+  input{display: none;}
+  label{
+    display: inline-block;
+    padding: 0 66px 0 67px;
+    font-size: 30px;  
+  }
+  label:hover{
+    color: red;
+  }
+  input:checked+label{
+    background-color: blanchedalmond;
+  }
+  #tab{    
+    float: left;
+    background-color: lightblue;
+    float: left;
+    width: 100%; height: 300px;
+  }
+  #menu1,#menu2,#menu3{
+    border-top: 1px solid gray;
+    width: 100%;height: auto;
+    background-color: blue;  
+  }
+  .choice img{
+    float: left;
+    width: 100px; height: 100px;
+  }
+  .choice{
+    float: left;
+    width: 33.3%; height: 130px;
+    background-color: blanchedalmond;
+  }
+  #menu1,#menu2,#menu3{
+    display: none;
+  }
+  #tab1:checked ~ #menu1,
+  #tab2:checked ~ #menu2,
+  #tab3:checked ~ #menu3{
+    display: block;
+  }
+  /* 어사이드 */
+  aside{
+    float: left;
+    width: 100%; height: 300px;
+    float: right;
+    background-color: lightsalmon;
+  }
+  h1{
+    text-align: center;
+  }
+  #ttt{text-align: center;}
+  #ttt span{  
+    font-size: 30px;
+  }
+  button{
+    position: relative;
+    left: 45%;
+    top: 20px;
+  }
+  
+  /* 푸터 */
+  footer{
+    width: 800px; height: 100px;
+    background-color: blue;
+  }  
+}
