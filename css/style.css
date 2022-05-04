@@ -195,8 +195,7 @@ footer{
     display: block;
   }
   /* 어사이드 */
-  aside{
-    float: left;
+  aside{    
     width: 100%; height: 300px;
     float: right;
     background-color: lightsalmon;
@@ -210,6 +209,11 @@ footer{
     position: relative;
     left: 45%;
     top: 0px;
+  }
+  #inside{
+    width: 100%; height: 200px;
+    overflow: scroll;
+    background-color: brown;
   }
   
   /* 푸터 */

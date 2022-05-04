@@ -30,7 +30,7 @@ var ptag = document.querySelectorAll('#inside p');
 var dele = document.querySelectorAll(".del");
 
 
-for(let i =0;i<pb.length;i++){  
+for(let i =0;i<pb.length;i++){         //구매버튼
   pb[i].addEventListener('click',function(){    
     if(ptag[i].innerHTML==""){       
     ptag[i].innerHTML = t[i].name+" "+t[i].val+" "+t[i].qua;
@@ -40,18 +40,21 @@ for(let i =0;i<pb.length;i++){
     }  
   })
 }
-for(let i=0;dele.length;i++){
+for(let i=0;dele.length;i++){         //빼기버튼
   dele[i].addEventListener('click',function(){
+    if(ptag[i].innerHTML!=""){     
     if(t[i].qua>1){
      minus(i);
     }else{
       ptag[i].innerHTML="";
       t[i].qua=1;
-      printm(i);
+      printm(i);      
     }
+  }else{
+    ptag[i].innerHTML="";
+  }
   })
 }
-
   function printm(a){
     if(end!=0){
     end=end-t[a].val;
